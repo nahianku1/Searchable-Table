@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid #39660d;
+    color: black;
+    border-collapse: collapse;
+    padding: 8px;
+   
+    
+}
+
+tbody tr:nth-child(odd){
+    background-color: lightblue;
+}
+
+input[type='search']{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #39660d;
+    border-radius: 10px;
+    width: 140%;
+    text-indent: 10px;
+}
+
+input[type='search']::placeholder{
+    color: rgb(62, 107, 122);
+}
